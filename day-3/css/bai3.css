@@ -1,0 +1,26 @@
+.form {
+    padding: 30px;
+    border: 1px solid #33801c;
+    width: fit-content;
+}
+.category-item {
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+}
+.category-item > label:first-child {
+    display: inline-block;
+    width: 100px;
+}
+label {
+    display: block;
+}
+
+
+.btn {
+    margin-top: 15px;
+    text-align: center;
+}
+button {
+    border-radius: 3px;
+}

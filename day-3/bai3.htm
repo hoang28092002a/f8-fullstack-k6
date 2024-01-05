@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/bai3.css" />
+        <title>Form Access Manager</title>
+    </head>
+    <body>
+        <section class="form">
+            <form action="">
+                <div class="category-item">
+                    <label for="lbl-username">User name</label>
+                    <input type="text" id="lbl-username" name="username" />
+                </div>
+                <div class="category-item">
+                    <label for="lbl-password">Password</label>
+                    <input type="password" id="lbl-password" name="password" />
+                </div>
+                <div class="category-item">
+                    <label for="lbl-city"
+                        >City of <br />
+                        Employment</label
+                    >
+                    <input type="text" id="lbl-city" name="city" />
+                </div>
+                <div class="category-item">
+                    <label for="lbl-server">Web server</label>
+                    <select name="web-server" id="lbl-server">
+                        <option value="0">--Choose a server--</option>
+                        <option value="VN">Ninh Bình</option>
+                        <option value="US">Bắc ninh</option>
+                        <option value="UK">Hà Nam</option>
+                    </select>
+                </div>
+                <div class="category-item">
+                    <label
+                        >Please specify <br />
+                        your role:</label
+                    >
+                    <div class="radio">
+                        <label><input type="radio" name="role" />Admin</label>
+                        <label
+                            ><input type="radio" name="role" />Engineer</label
+                        >
+                        <label><input type="radio" name="role" />Manager</label>
+                        <label><input type="radio" name="role" />Guest</label>
+                    </div>
+                </div>
+                <div class="category-item">
+                    <label
+                        >Single Sign-on <br />
+                        the following:</label
+                    >
+                    <div class="checkbox">
+                        <label
+                            ><input type="checkbox" name="Sign-on" />Mail</label
+                        >
+                        <label
+                            ><input
+                                type="checkbox"
+                                name="Sign-on"
+                            />Payroll</label
+                        >
+                        <label
+                            ><input
+                                type="checkbox"
+                                name="Sign-on"
+                            />Self-service</label
+                        >
+                    </div>
+                </div>
+                <div class="btn">
+                    <button>Login</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </section>
+        <a
+        >
+    </body>
+</html>
