@@ -1,0 +1,56 @@
+html {
+    font-size: 10px;
+}
+body {
+    line-height: 1.5;
+    font-size: 1.6rem;
+    color: #dadde0;
+}
+.column {
+    width: 900px;
+    margin: 10px;
+    background: #345;
+    padding: 15px 30px;
+    border-radius: 15px;
+}
+.heading {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.header .content {
+    margin: 8px 0;
+    font-size: 1.2rem;
+}
+.column-content input,
+.btn {
+    height: 32px;
+    border-radius: 3px;
+    border: 1px solid #717781;
+    font-size: 1.3rem;
+}
+.column-content input {
+    width: 230px;
+    padding-left: 10px;
+}
+.btn {
+    background: #f8db35;
+    color: #262d2c;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.column:hover {
+    cursor: pointer;
+}
+.column:hover .column-content input::placeholder {
+    color: #ffa51a;
+    transition: 0.2s;
+}
+.column:hover .column-content input {
+    transition: 0.2s;
+    background: #ddd;
+}
+.column:hover .btn {
+    background: #ffa51a;
+    transition: 0.2s;
+    color: #fff;
+}

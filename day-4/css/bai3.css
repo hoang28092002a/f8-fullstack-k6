@@ -1,0 +1,146 @@
+.best-seller {
+    width: 1200px;
+    height: 1000px;
+    margin: 0px auto;
+    background-color: transparent;
+  }
+  
+  .heading {
+    font-size: 50px;
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+  .list-menu {
+    text-align: center;
+  }
+  
+  .list-menu a {
+    margin: 2px;
+    padding: 15px 25px;
+    text-align: center;
+    color: #000;
+    background-color: rgb(223, 227, 226);
+  }
+  
+  .list-menu a:hover {
+    color: #fff;
+    background-color: rgb(45, 45, 167);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  .list-product {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .list-product li {
+    width: 200px;
+    margin: 100px 30px;
+    list-style: none;
+  }
+
+  .nav-action .nav-action-btn {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: end;
+    width: 200px;
+    height: 250px;
+    opacity: 0;
+  }
+  
+  .nav-action .nav-action-btn:hover {
+    opacity: 1;
+  }
+  
+  .nav-action .nav-action-btn button {
+    padding: 5px 24px;
+    background-color: rgb(45, 45, 167);
+    color: #fff;
+  }
+  
+  .nav-action .nav-action-btn button:nth-child(4) {
+    padding: 10px 63px;
+    margin-top: 20px;
+  }
+  
+  .nav-action.nav1 {
+    width: 100%;
+    height: 250px;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNuL82EP1GJk9R1TJ-Zk4hBxlYuF6mW4Kp3w&usqp=CAU")
+      no-repeat;
+    background-size: contain;
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .nav-action.nav1:hover {
+
+    background-size: contain;
+  }
+  
+  .nav-action.nav2 {
+    width: 100%;
+    height: 250px;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNuL82EP1GJk9R1TJ-Zk4hBxlYuF6mW4Kp3w&usqp=CAU")
+      no-repeat;
+    background-size: contain;
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .nav-action.nav2:hover {
+
+    background-size: contain;
+  }
+  
+  .nav-action.nav3 {
+    width: 100%;
+    height: 250px;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNuL82EP1GJk9R1TJ-Zk4hBxlYuF6mW4Kp3w&usqp=CAU")
+      no-repeat;
+    background-size: contain;
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .nav-action.nav3:hover {
+
+    background-size: contain;
+  }
+   
+  .nav-action.nav4 {
+    width: 200px;
+    height: 250px;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNuL82EP1GJk9R1TJ-Zk4hBxlYuF6mW4Kp3w&usqp=CAU")
+      no-repeat;
+    background-size: contain;
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .nav-action.nav4:hover {
+
+    background-size: contain;
+  }
+  
+  .nav-info a {
+    margin: 10px 0;
+  }
+  
+  .nav-info {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .rate-star {
+    margin-top: 20px;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .rate-star i:not(i:last-child) {
+    color: yellow;
+  }
